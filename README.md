@@ -6,6 +6,6 @@ A simple websocket real-time chat application project written in Node.js & Expre
 ```bash
 cd/{where-edin}
 npm update
-npm i express@latest, socketio@latest
+npm i express@latest, socket.io@latest
 node server.js
 ```
