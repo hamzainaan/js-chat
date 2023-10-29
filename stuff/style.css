@@ -1,0 +1,50 @@
+.sticky-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .bg-green {
+    background-color: #25d366;
+  }
+  .text-green {
+    color: #25d366;
+  }
+  .message {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+  }
+  .message-in {
+    background-color: #dcf8c6;
+    align-self: flex-start;
+    animation: slide-in-left 0.5s ease-in-out;
+  }
+  @keyframes slide-in-left {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  .message-out {
+    background-color: #e1ffc7;
+    align-self: flex-end;
+    animation: slide-in-right 0.5s ease-in-out;
+  }
+  @keyframes slide-in-right {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  .user-id {
+    font-weight: bold;
+  }
+  

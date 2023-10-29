@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>edin-chat | Fast & Secure & No-Logs</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap 5 CDN -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+        <!-- Font Awesome CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+        <!--Custom CSS-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body class="d-flex flex-column min-vh-100">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-green">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <i class="fas fa-fingerprint fa-fade"></i>
+                    edin | fast & secure & no-logs!
+                </a>
+            </div>
+        </nav>
+
+        <div class="container-fluid flex-grow-1 d-flex flex-column p-3">
+            <ul id="messages" class="list-unstyled d-flex flex-column overflow-auto"></ul>
+            <p id="feedback" class="text-muted"></p>
+        </div>
+
+        <div class="sticky-footer bg-light p-2">
+            <form id="form" action="" class="d-flex align-items-center">
+                <input id="input" autocomplete="off" class="form-control mr-2" placeholder="Mesajınızı yazın.." />
+                <button type="submit" class="btn btn-success"><i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+
+        <!-- Socket.io -->
+        <script src="/socket.io/socket.io.js"></script>
+        <!--Custom JS-->
+        <script src="../app.js"></script>
+    </body>
+
+</html>
