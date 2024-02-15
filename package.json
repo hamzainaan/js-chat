@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hamzainaan/edin-chat.git"
+    "url": "git+https://github.com/hamzainaan/js-chat.git"
   },
   "author": "Hamza Inan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hamzainaan/edin-chat/issues"
+    "url": "https://github.com/hamzainaan/js-chat/issues"
   },
-  "homepage": "https://github.com/hamzainaan/edin-chat#readme",
+  "homepage": "https://github.com/hamzainaan/js-chat#readme",
   "dependencies": {
     "express": "^4.18.2",
     "socket.io": "^4.7.2"
